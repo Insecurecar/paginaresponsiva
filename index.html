@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study Link</title>
+    <link rel="stylesheet" href="estilos2.css">
+</head>
+<body>
+
+    <div class="contenedor">
+
+        <!-- item1: banner, titulo, subtitulo -->
+        <div class="item1">
+            <h1>Study Link</h1>
+            <p class="subtitulo">Encuentra tutores y grupos de estudio de tu propia escuela</p>
+        </div>
+
+        <!-- item2: menu del lado izquierdo -->
+        <div class="item2">
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#tutores">Tutores</a></li>
+                    <li><a href="#registro">Registro</a></li>
+                    <li><a href="#acerca">Acerca</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <!-- item22: botones del lado derecho -->
+        <div class="item22">
+            <a href="#login" class="boton boton-outline">Iniciar sesión</a>
+            <a href="#registro" class="boton">Registrarse</a>
+        </div>
+
+        <!-- item3: imagenes en vertical (columna izquierda) -->
+        <div class="item3">
+            <img src="img/image4.png" alt="Tutoría entre estudiantes">
+            <img src="img/image1.png" alt="Grupos de estudio">
+        </div>
+
+        <!-- item4: informacion sobre el giro de la empresa -->
+        <div class="item4" id="servicios">
+            <h2>¿Qué es Study Link?</h2>
+            <p>
+Study Link es la plataforma que conecta a estudiantes de tu misma escuela para resolver dudas, agendar tutorías y armar grupos de estudio, todo en un solo lugar. Nada de buscar ayuda por grupos de WhatsApp o esperar a que alguien conteste: aquí encuentras tutor, agendas y listo.
+
+Misión
+
+Que pedir ayuda con una materia sea tan fácil como mandar un mensaje. Creemos que el mejor apoyo para entender algo casi siempre está en el compañero que ya lo dominó, y Study Link solo hace que sea fácil encontrarlo.
+
+Lo que puedes hacer aquí
+
+Agendar tutorías con estudiantes de semestres avanzados
+Unirte a grupos de estudio de tu materia
+Calificar y recomendar tutores
+
+¿Cómo funciona?
+
+Te registras con tu correo institucional
+Buscas tutor por materia, disponibilidad o calificación
+Agendas la sesión y te conectas directo con tu tutor
+
+¿Para quién es?
+
+Para cualquier estudiante que necesite un empujón con una materia, y también para quien quiera compartir lo que sabe, ganar experiencia enseñando y ayudar a otros de paso.
+            </p>
+            <h3 id="tutores">Lo que puedes hacer aquí</h3>
+            <ul class="lista-servicios">
+                <li>Agendar tutorías con estudiantes de semestres avanzados</li>
+                <li>Unirte a grupos de estudio de tu materia</li>
+                <li>Calificar y recomendar tutores</li>
+            </ul>
+        </div>
+
+        <!-- item3: imagenes en vertical (columna derecha) -->
+        <div class="item3">
+           <img src="img/image3.png" alt="Resolver dudas">
+           <img src="img/image2.png" alt="Perfil de tutor">
+        </div>
+
+        <!-- item5: formulario de registro -->
+        <div class="item5" id="registro">
+            <h3>Crear cuenta</h3>
+            <form method="post">
+                <input type="text" name="nombre" placeholder="Nombre completo" required class="caja">
+                <input type="email" name="correo" placeholder="Correo institucional" required class="caja">
+                <input type="password" name="contrasena" placeholder="Contraseña" required class="caja">
+                <input type="password" name="confirmar" placeholder="Confirmar contraseña" required class="caja">
+                <button type="submit" class="boton">Registrarse</button>
+            </form>
+        </div>
+
+        <!-- item5: formulario de inicio de sesion -->
+        <div class="item5" id="login">
+            <h3>Iniciar sesión</h3>
+            <form method="post">
+                <input type="email" name="correo" placeholder="Correo institucional" required class="caja">
+                <input type="password" name="contrasena" placeholder="Contraseña" required class="caja">
+                <button type="submit" class="boton">Entrar</button>
+            </form>
+        </div>
+
+        <!-- item6 x3: tarjeta, titulo, imagen y descripcion -->
+        <div class="item6">
+            <img src="img/tutor.jpg" alt="Tutoría 1 a 1">
+            <h4>Tutoría 1 a 1</h4>
+            <p>Agenda una sesión con un tutor de tu materia cuando lo necesites.</p>
+        </div>
+
+        <div class="item6">
+            <img src="img/grupo.jpg" alt="Grupos de estudio">
+            <h4>Grupos de Estudio</h4>
+            <p>Únete a grupos por materia y prepárense juntos para los exámenes.</p>
+        </div>
+
+        <div class="item6">
+            <img src="img/tuto.jpg" alt="Perfil de tutor">
+            <h4>Perfil de Tutor</h4>
+            <p>Consulta calificaciones y reseñas antes de elegir a tu tutor.</p>
+        </div>
+
+        <!-- item7: redes sociales, contacto, direccion, derechos -->
+        <div class="item7" id="acerca">
+            <div class="redes">
+                <a href="#">Facebook</a>
+                <a href="#">Instagram</a>
+                <a href="#">X</a>
+            </div>
+            <p>Tel: 55 1234 5678 &nbsp;|&nbsp; correo: contacto@studylink.com</p>
+            <p>Universidad Tecnológica de Nezahualcóyotl, Estado de México</p>
+            <p>&copy; 2026 Study Link. Todos los derechos reservados.</p>
+        </div>
+
+    </div>
+</body>
+</html>
